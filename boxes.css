@@ -1,0 +1,37 @@
+.container {
+    width: 800px;
+    height: 150px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+.top {
+    border: 3px solid blue;
+    height: 60%;
+    column-count: 10;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+
+   
+}
+.bottom {
+    border: 3px solid blue;
+    height: 60%;
+    column-count: 10;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(209, 127, 127);
+}
+
+.box {
+    
+    background: blue;
+    height: 50px;
+    width: 50px;
+    
+}
